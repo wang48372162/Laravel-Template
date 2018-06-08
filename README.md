@@ -1,7 +1,7 @@
 # Laravel Template (ycs)
 
 ## Git Alias (ycs)
-* alias.lo=log --oneline
+* alias.lo=log --oneline --graph
 * alias.l=log
 * alias.c=commit -m
 * alias.p=push
@@ -19,7 +19,7 @@
 * alias.last=log -1 HEAD
 
 ### Set Git Alias
-    git config --global alias.lo "log --oneline"
+    git config --global alias.lo "log --oneline --graph"
     git config --global alias.l "log"
     git config --global alias.c "commit -m"
     git config --global alias.p "push"
