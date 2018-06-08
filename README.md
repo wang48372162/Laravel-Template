@@ -34,4 +34,4 @@
     git config --global alias.co "checkout"
     git config --global alias.b "branch"
     git config --global alias.rsp "reset HEAD~1"
-    git config --global alias.last=log -1 HEAD
+    git config --global alias.last "log -1 HEAD"
