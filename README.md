@@ -12,6 +12,7 @@
 * alias.can=commit --amend --no-edit
 * alias.co=checkout
 * alias.b=branch
+* alias.rs=reset
 * alias.rsp=reset HEAD~1
 * alias.p=push
 * alias.r=remote -v
@@ -32,6 +33,7 @@
     git config --global alias.can "commit --amend --no-edit"
     git config --global alias.co "checkout"
     git config --global alias.b "branch"
+    git config --global alias.rs "reset"
     git config --global alias.rsp "reset HEAD~1"
     git config --global alias.p "push"
     git config --global alias.r "remote -v"
