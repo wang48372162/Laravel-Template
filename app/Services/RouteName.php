@@ -2,14 +2,14 @@
 
 namespace App\Services;
 
-class Router
+class RouteName
 {
     static private $pageTitle;
 
     /**
      * 回傳當前 Route 的 Name
      */
-    static public function routeName()
+    static public function get()
     {
         $route = request()->route();
         return $route ? $route->getName() : null;
