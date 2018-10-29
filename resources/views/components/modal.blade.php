@@ -24,7 +24,7 @@
           @endif
 
           @if ($ok ?? true)
-            <button type="button" class="btn btn-primary">確定</button>
+            <button type="button" id="{{ $name }}Ok" class="btn btn-primary">確定</button>
           @endif
         @endisset
       </div>
