@@ -69,7 +69,7 @@ function file_url($url, $default = null)
     }
 
     if ($url) {
-        return Storage::disk(config('admin.upload.disk'))->url($url);
+        return Storage::disk('public')->url($url);
     }
 
     return $default;
